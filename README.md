@@ -40,3 +40,16 @@ THEN I am prompted to select an employee to update and their new role and this i
 6. run node server.js
 7. make sure server.js is connected to SQL before continuing
 8. run through prompts as required 
+
+## Technologies used
+Node.js, inquirer package, javascript
+
+## Walkthrough video
+https://drive.google.com/file/d/1ijmyCjc9pBPDNmo77SqlJe-L1A1mffvp/view
+
+
+## Developer
+Kwasi Dankwa
+
+## Any Questions
+email-edankwa14@gmail.com
