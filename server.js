@@ -160,7 +160,7 @@ function promptDepartment(departmentChoices) {
                 console.table("response ", res);
                 console.log(res.affectedRows + "Employees are viewed!\n");
 
-                firstPrompt();
+                runApp();
             });
         });
 }
@@ -227,7 +227,7 @@ function promptInsert(roleChoices) {
                     console.table(res);
                     console.log(res.insertedRows + "Inserted successfully!\n");
 
-                    firstPrompt();
+                    runApp();
                 });
         });
 }
@@ -277,7 +277,7 @@ function promptDelete(deleteEmployeeChoices) {
                 console.table(res);
                 console.log(res.affectedRows + "Deleted!\n");
 
-                firstPrompt();
+                runApp();
             });
         });
 }
@@ -368,7 +368,7 @@ function promptEmployeeRole(employeeChoices, roleChoices) {
                     console.table(res);
                     console.log(res.affectedRows + "Updated successfully!");
 
-                    firstPrompt();
+                    runApp();
                 });
         });
 }
